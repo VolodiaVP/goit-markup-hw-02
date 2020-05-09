@@ -1,0 +1,207 @@
+/* цвет основного текста #757575 */
+/* цвет заголвков #212121 */
+/* акцент #2196f3 */
+/* белый #ffffff */
+/* цвет фона подвала #2f303a */
+/* цвета фона преимуществ #f5f4fa */
+
+/* Палитра */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-bgc: #2f303a;
+  --advantages-bgc: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Логотип */
+.logo-web {
+  color: var(--accent-text-color);
+}
+.logo-header {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-footer {
+  color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Навигация */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+/* Email and phone */
+.nav-items .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+}
+
+.nav-items .link:hover,
+.nav-items .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.subscribe {
+  font-weight: 900;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Футер */
+.footer {
+  color: var(--white-color);
+  background-color: var(--footer-bgc);
+}
+
+/* Адрес футер */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address a {
+  color: inherit;
+}
+
+/* Разработчики футер */
+.developers {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--primary-text-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+/* Цвет заголовков */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* Преимущества */
+.advantages .text {
+  font-weight: 700;
+  color: var(--title-text-color);
+}
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.advantages img {
+  background-color: var(--advantages-bgc);
+}
+.advantages img:hover,
+.advantages img:focus {
+  background-color: var(--accent-text-color);
+}
+
+/* Чем мы занимаемся */
+.activities .text {
+  font-weight: 700;
+  text-align: center;
+  color: var(--white-color);
+}
+.activities li {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Наша команда */
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team a:hover,
+.team a:focus {
+  background-color: var(--accent-text-color);
+}
+
+/* Постоянные клиенты */
+.clients img:hover {
+  background-color: var(--accent-text-color);
+}
